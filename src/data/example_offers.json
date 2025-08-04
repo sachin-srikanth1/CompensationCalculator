@@ -1,0 +1,92 @@
+{
+  "example_offers": [
+    {
+      "offer_name": "Tech Corp - Senior Engineer",
+      "base_salary": 180000,
+      "signing_bonus": 25000,
+      "bonus_percentage": 15,
+      "bonus_fixed": 0,
+      "start_date": "2024-01-15",
+      "equity_grants": [
+        {
+          "type": "RSU",
+          "value": 200000,
+          "vesting_schedule": {
+            "cliff_months": 12,
+            "duration_months": 48,
+            "frequency": "monthly"
+          },
+          "start_date": "2024-01-15",
+          "refresh_rate": 25,
+          "growth_rate": 0.10
+        }
+      ]
+    },
+    {
+      "offer_name": "StartupXYZ - Lead Developer",
+      "base_salary": 160000,
+      "signing_bonus": 10000,
+      "bonus_percentage": 10,
+      "bonus_fixed": 0,
+      "start_date": "2024-02-01",
+      "equity_grants": [
+        {
+          "type": "option",
+          "value": 300000,
+          "vesting_schedule": {
+            "cliff_months": 12,
+            "duration_months": 48,
+            "frequency": "monthly"
+          },
+          "start_date": "2024-02-01",
+          "refresh_rate": 30,
+          "growth_rate": 0.20
+        }
+      ]
+    },
+    {
+      "offer_name": "BigTech Inc - Staff Engineer",
+      "base_salary": 220000,
+      "signing_bonus": 50000,
+      "bonus_percentage": 20,
+      "bonus_fixed": 0,
+      "start_date": "2024-01-01",
+      "equity_grants": [
+        {
+          "type": "RSU",
+          "value": 400000,
+          "vesting_schedule": {
+            "cliff_months": 12,
+            "duration_months": 48,
+            "frequency": "quarterly"
+          },
+          "start_date": "2024-01-01",
+          "refresh_rate": 20,
+          "growth_rate": 0.08
+        }
+      ]
+    },
+    {
+      "offer_name": "Unicorn Startup - Senior PM",
+      "base_salary": 170000,
+      "signing_bonus": 15000,
+      "bonus_percentage": 12,
+      "bonus_fixed": 0,
+      "start_date": "2024-03-01",
+      "equity_grants": [
+        {
+          "type": "option",
+          "value": 250000,
+          "vesting_schedule": {
+            "cliff_months": 12,
+            "duration_months": 48,
+            "frequency": "monthly"
+          },
+          "start_date": "2024-03-01",
+          "refresh_rate": 25,
+          "growth_rate": 0.25
+        }
+      ]
+    }
+  ]
+} 
